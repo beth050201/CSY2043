@@ -1,3 +1,6 @@
+*{
+    margin: 10;
+}
 /*exercsie 1*/
 .part1 h2 {
     color: red;
@@ -31,11 +34,23 @@
 .csym019{
     background-color: lightblue;
     float: left;
-    width: 50%;
+    width: 49%;
+    border-radius: 5%;
+    padding: 0.5px;
 }
 
 .csym015{
     background-color: lightcoral;
     float: right;
-    width: 50%;
+    width: 49%;
+    border-radius: 5%;
+    padding: 0.5px;
 }
+
+.csym019 h1 {
+color: darkblue;
+}
+
+.csym015 h1 {
+    color:lightgoldenrodyellow;
+    }
