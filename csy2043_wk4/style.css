@@ -1,3 +1,4 @@
+/*exercsie 1*/
 .part1 h2 {
     color: red;
 }
@@ -14,7 +15,14 @@
 .part2 p {
     color: lightgreen;
     background-color: darkgreen;
+    display: inline;
 }
+.part3 div,
 .part3 p {
     color: green;
 }
+.part4 > p {
+    color: green;
+}
+
+
