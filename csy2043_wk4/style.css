@@ -6,6 +6,7 @@
 .part1 p {
     color: white;
     background-color: black;
+    display: inline;
 }
 
 .part2 h2 {
@@ -25,4 +26,16 @@
     color: green;
 }
 
+/*exercise2*/
 
+.csym019{
+    background-color: lightblue;
+    float: left;
+    width: 50%;
+}
+
+.csym015{
+    background-color: lightcoral;
+    float: right;
+    width: 50%;
+}
