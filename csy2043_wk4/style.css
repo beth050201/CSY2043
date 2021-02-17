@@ -69,3 +69,35 @@ color: darkblue;
         border-radius: 5%;
         padding: 0.5px;
     }
+
+.header {
+    color: white;
+    background-color: blue;
+    padding: 20px;
+}
+
+.left {
+    background-color: blueviolet;
+    float: left;
+    width: 25%;
+  }
+  .middle {
+    background-color:gray;
+    float: left;
+    width: 50%;
+  }
+  .right {
+    background-color: blueviolet;
+    float: right;
+    width: 25%;
+  }
+
+  footer{
+    background-color: rgb(221, 167, 87);
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding-left: 25px;
+}
+  
+ 
