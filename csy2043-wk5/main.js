@@ -1,4 +1,5 @@
-/* function print5() {
+//exercise 1/2
+function print5() {
     alert(1);
     alert(2);
     alert(3);
@@ -6,8 +7,9 @@
     alert(5);
    }
    print5();
-   print5(); */
+   print5();
 
+   //exercise 4
    function myLoadFunction() {
     var element = document.getElementById('pageheading');
     element.firstChild.nodeValue = 'New Heading';
