@@ -13,19 +13,18 @@
     height: auto;
 }
   nav { 
-    /* text-align:right;*/
     display: flex;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     justify-content: space-around;
     align-items: center;
-    text-align: right;
     min-height: 5vh; 
     background-color: #C3EFF5;
   }
 
   /* css found by watching video it was then amended to suit my website - https://www.youtube.com/watch?v=gXkqy0b4M5g */
   .nav-links{
+    text-align: right;
     display: flex;
     justify-content: space-around;
     width: 25%; 
