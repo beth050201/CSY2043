@@ -363,7 +363,155 @@ h1 {
   padding-bottom: 15px;
   }
 /* login css */
+.content4{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-gap: 3 rem;
+  grid-auto-rows: minmax(100px, auto);
+  padding-top: 10px;
+}
 
+/* most of CSS used for the form is taken from https://codepen.io/ssbalakumar/pen/uzDIA
+  this is only used as a guide for how to style and then changes have been made to fit my portfolio site */
+  .signup {
+    /* sets the width for the form to be */
+    max-width:400px;
+    margin:0 auto;
+    position:relative;
+    font-family: 'Poppins', sans-serif;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+  
+  #contact {
+    /* background and shape of the form */
+    padding:30px;
+    margin:50px 0;
+    border-radius: 20px;
+    background-color:#C3EFF5;
+  }
+  
+  fieldset {
+    /* removes the border around each field */
+    border: medium none !important;
+    margin: 0 0 20px;
+    min-width: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: center;
+    
+  }
+  
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  /* makes changes to the size of the input area for each */
+    width:300px;
+    border:2px solid rgba(169, 212, 181, 0.29);;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius: 20px;
+  }
+  
+  #contact textarea {
+    /* changes the size of the text area to write a comment */
+    height:90px;
+    max-width:300px;
+    border-radius: 20px;
+  }
+  
+  #contact button[type="submit"] {
+    cursor:pointer;
+    /*adding a border radius to match the exsisting style on the site*/
+    border-radius: 20px;
+    width:100%;
+    border:none;
+    columns: #000000;;
+    margin:0 0 5px;
+    padding:10px;
+    font-size:20px;
+    width: 238px;
+    height: 42px;
+    background: rgba(169, 212, 181, 0.29);
+  }
+  
+  #contact button[type="submit"]:hover {
+    background:rgb(125, 180, 180);
+    /* lighter grey for the hover */
+  }
+
+  /* most of CSS used for the form is taken from https://codepen.io/ssbalakumar/pen/uzDIA
+  this is only used as a guide for how to style and then changes have been made to fit my portfolio site */
+  .login {
+    /* sets the width for the form to be */
+    max-width:400px;
+    margin:0 auto;
+    position:relative;
+    font-family: 'Poppins', sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+  
+  #contact {
+    /* background and shape of the form */
+    padding:30px;
+    margin:50px 0;
+    border-radius: 20px;
+    background-color:#C3EFF5;
+  }
+  
+  fieldset {
+    /* removes the border around each field */
+    border: medium none !important;
+    margin: 0 0 20px;
+    min-width: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: center;
+    
+  }
+  
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  /* makes changes to the size of the input area for each */
+    width:300px;
+    border:2px solid rgba(169, 212, 181, 0.29);;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius: 20px;
+  }
+  
+  #contact textarea {
+    /* changes the size of the text area to write a comment */
+    height:90px;
+    max-width:300px;
+    border-radius: 20px;
+  }
+  
+  #contact button[type="submit"] {
+    cursor:pointer;
+    /*adding a border radius to match the exsisting style on the site*/
+    border-radius: 20px;
+    width:100%;
+    border:none;
+    columns: #000000;;
+    margin:0 0 5px;
+    padding:10px;
+    font-size:20px;
+    width: 238px;
+    height: 42px;
+    background: rgba(169, 212, 181, 0.29);
+  }
+  
+  #contact button[type="submit"]:hover {
+    background:rgb(125, 180, 180);
+    /* lighter grey for the hover */
+  }
   .footer {
     text-align: center;
   }
