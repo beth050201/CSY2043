@@ -29,52 +29,55 @@
         
             <div class="form">  
                 <form id="contact" action="mailto:someone@somewhere.com" method="post">
-                  <h2>Add Text here</h2
+                  <h2>Add Text here</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                  <br>
+                  <label>Fullname*</label>
+                  <fieldset>
+                    <input  type="text" tabindex="1" required autofocus>
+                  </fieldset>
+    
+                  <label>Email Address*</label>
+                  <fieldset>
+                    <input type="email" tabindex="2" required>
+                  </fieldset>
+                  
+                  <label>How can we help*</label>
+                  <fieldset>
+                    <textarea tabindex="5" required></textarea>
+                  </fieldset>
                   
                   <fieldset>
-                    <input placeholder="Fullname" type="text" tabindex="1" required autofocus>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                   </fieldset>
+                  <p>* Required Field</p>
+                </form>
+               
+              </div>      
     
+        <div class="contactdetails">
+                <img class="resize_image2"src="assets/jetty-1834801_960_720.jpg" alt="image">  
+              <p> Contact details entered here e.g. phone number or company email address.     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa...
+            </p>      
+          </div>
+            
+              </div>
+
+              <br>
+
+              <div class="newsletter_contact">  
+                <form id="newsletter" action="mailto:someone@somewhere.com" method="post">
+                    <h2>Sign up to our Newsletter</h2>
+                    <br>
                   <fieldset>
                     <input placeholder="Email Address" type="email" tabindex="2" required>
-                  </fieldset>
-    
-                  <fieldset>
-                    <textarea placeholder="How can we help?" tabindex="5" required></textarea>
                   </fieldset>
                   
                   <fieldset>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                   </fieldset>
                 </form>
-               
-              </div>      
-    
-        <div class="contactimage">
-                <img class="resize_image2"src="assets/jetty-1834801_960_720.jpg" alt="image">        
-            </div>
-
-            <div class="contactdetails">
-            <p> Contact details entered here e.g. phone number or company email address </p>
-                <br>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa...
-            </p>
-              </div>
-
-              <br>
-
-              <div class="newsletter_contact">
-            <form>
-                <h2>Sign up to our Newsletter</h2>
-
-                <form action="mailto:someone@something.com" method="POST">
-                <label>E-mail address</label> <input type="email" />
-                <br>
-                <button <input type="button" name="button" value="Submit" /></button>
-        
-            </form>
-            </div>
+                </div>
 
             <div class="socialMedia">
             <h2>Follow us on social media</h2>
