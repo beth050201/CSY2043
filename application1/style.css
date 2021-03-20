@@ -117,13 +117,6 @@ h1 {
   height: 5px;
 }
 
-.footer_divider{
-  grid-column: 1/4;
-  grid-row: 6;
-  padding-left: 0px;
-  padding-right: 0px;
-  height: 5px;
-}
 
  /* first grid element take sup more than one row */
 .one {
@@ -258,25 +251,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   padding-bottom: 50px;
-}
-
-/* portfolio css used for nile and amended to made to match the website */
-.container {
-  background-color: #C3EFF5;
-}
-.weeklysteps  {
-  max-width: 100%;
-  border-radius: 20px;
-  transition: all .3s;
-  overflow: hidden;
-  position: relative;
-}
-
-.weeks {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  grid-gap: 1rem;
-  grid-auto-rows: minmax(150px, auto);
+  background-color: #CCF4F6;
 }
 
 
@@ -369,6 +344,8 @@ h1 {
   }
 
   .contactdetails{
+  grid-column: 2;
+  grid-row: 3;
   border: 3px solid rgb(125, 180, 180);
   width: 100%;
   border-radius: 20px;
@@ -379,14 +356,25 @@ h1 {
   .socialMedia{
     grid-column: 1;
     grid-row: 2;
-    padding: 5em;
     text-align: center;
     padding-bottom: 50px;
   }
 
+  .socialMedia ul { 
+    text-align: center;
+    padding-right: 20px;
+    height: 64px;
+    background-color: #FFF;
+  }
+
+  .resize_social_icons{
+    widows: 50px;
+    height: 50px;
+  }
+
   .newsletter{
   grid-column: 2;
-  grid-row: 3;
+  grid-row: 4;
   padding: 10%;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -543,11 +531,22 @@ h1 {
     /* lighter grey for the hover */
   }
 
-  footer h3 {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    color: #000000;
+/*footer css*/
+.footer_divider{
+  grid-column: 1/4;
+  grid-row: 6;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 5px;
+  margin-top: 40px;
+  }
+
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #000000;
 }
 
 footer ul { 
@@ -555,6 +554,7 @@ footer ul {
   padding-right: 20px;
   font-family: 'Poppins', sans-serif;
   height: 64px;
+  background-color: #FFF;
 }
 
 footer ul li{
