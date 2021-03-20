@@ -14,7 +14,7 @@
   height: autopx;
 } 
 .resize_image {
-  width: 350px;
+  width: 400px;
   height: 300px;
   } 
 
@@ -73,6 +73,7 @@ button {
   border: none;
   background: rgba(169, 212, 181, 0.29);
   border-radius: 20px;
+  font-size: 20px;
 }
 
 h1 {
@@ -88,16 +89,6 @@ h1 {
   grid-auto-rows: minmax(100px, auto);
   /* padding-left: 200px;
   padding-right: 200px; */
-}
-
-/* for typing aniamtion using Javascript*/
- #intro {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(73, 144, 202);
-    padding: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
-  font-size: 35px;
 }
 
 /*dividers*/
@@ -122,36 +113,35 @@ h1 {
 .one {
   grid-column: 1;
   grid-row: 1/2;
-  padding: 5em;
+  padding-top: 75px;
+  padding-left: 150px;
   text-align: center;
   padding-bottom: 50px;
 }
 
 .two {
-    grid-column: 2/3;
-    grid-row: 1;
-    padding: 90px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    padding-bottom: 50px;
+  grid-column: 2/3;
+  grid-row: 1;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 75px;
+  padding-right: 150px;
 }
 .three{
   grid-column: 1;
   grid-row: 2;
-  font-family: 'Poppins', sans-serif;
   text-align: left;
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 75px;
+  padding-left: 150px;
   padding-bottom: 20px;
 }
 
 .four{
   grid-column: 2;
   grid-row: 2;
-  font-family: 'Poppins', sans-serif;
   text-align: left;
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 75px;
+  padding-left: 150px;
   padding-bottom: 20px;
 }
 
@@ -198,7 +188,7 @@ h1 {
 
 .seven{
   grid-column: 1/3;
-  grid-row: 5;
+  grid-row: 4;
   padding: 90px;
   text-align: left;
   padding: 10px 40px 20px;
@@ -223,17 +213,18 @@ h1 {
  /* grid on about us page */
 .intro {
   grid-column: 1;
-    grid-row: 1;
-    padding: 90px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    padding-bottom: 50px;
+  grid-row: 1;
+  margin-top: 75px;
+  margin-left: 150px;
+  text-align: left;
+  padding-bottom: 50px;
 }
 
 .about_image {
   grid-column: 2;
   grid-row: 1;
-  padding: 5em;
+  padding-top: 75px;
+  padding-right: 150px;
   text-align: center;
   margin: 10px;
 }
@@ -249,10 +240,9 @@ h1 {
 }
 
 .overview{
-  margin-bottom: 20px;
-  margin-top: 0px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .week1, .week2, .week3, .week4, .week5, .week6 {
@@ -312,17 +302,15 @@ h1 {
   padding: 40px;
 }
 
-.newsletter_about{
+.newsletterform_about{
   grid-column: 1;
   grid-row: 1;
-  font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #CCF4F6;
   width: 450px;
   border-radius: 20px;
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: #CCF4F6;
   margin-left: 320px;
   margin-right: 50px;
   margin-top: 20px;
@@ -336,15 +324,7 @@ h1 {
   background-color: #CCF4F6;
   border-radius: 20px;
   padding: 15px;
-}
-.newsletterabout {
-  grid-column: 1;
-  grid-row: 5;
-  max-width:400px;
-  margin:0 auto;
-  background-color: #CCF4F6;
-  border-radius: 20px;
-  padding: 15px;
+  text-align: center;
 }
 
 #newsletter input[type="email"] , #newsletter button[type="submit"] 
@@ -365,7 +345,6 @@ fieldset {
   padding-top: 10px;
   padding-right: 15px;
   text-align: center;
-  
 }
 
 #newsletter input[type="email"] {
@@ -376,15 +355,17 @@ fieldset {
   margin:0 0 5px;
   padding:10px;
   border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
 }
 
 #newsletter button[type="submit"] {
   cursor:pointer;
+  text-align: center;
   border-radius: 20px;
   width:100%;
   border:none;
-  columns: #000000;;
-  margin:0 0 5px;
+  columns: #000000;
   padding:10px;
   font-size:20px;
   width: 238px;
@@ -394,7 +375,6 @@ fieldset {
 
 #newsletter button[type="submit"]:hover {
   background:rgb(125, 180, 180);
-  /* lighter grey for the hover */
 }
 
 .testimonial{
@@ -705,11 +685,11 @@ fieldset {
   }
 
 
-footer h3 {
+footer p {
   display: flex;
   justify-content: center;
-  padding: 5px;
   color: #000000;
+  font-size: 20px;
 }
 
 footer ul { 
