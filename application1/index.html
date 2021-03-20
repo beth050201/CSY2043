@@ -73,16 +73,17 @@
               <h2>Add name here</h2>
         </div>
 
-        <div class="seven">
-            <form>
+        <div class="newsletterform">  
+            <form id="newsletter" action="mailto:someone@somewhere.com" method="post">
                 <h2>Sign up to our Newsletter</h2>
-
-                <form action="mailto:someone@something.com" method="POST">
-                <input placeholder="E-mail address" type="email" />
-
-                <br>
-                <button <input type="button" name="button" value="Submit" />Sign Up</button>
-                </form>
+              <fieldset>
+                <input placeholder="Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
             </div>
 
         <div class = "footer_divider">

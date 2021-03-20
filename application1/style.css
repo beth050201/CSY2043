@@ -161,7 +161,7 @@ h1 {
   text-align: center;
   width: 450px;
   border-radius: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: #CCF4F6;
   margin-left: 320px;
@@ -175,12 +175,25 @@ h1 {
   text-align: center;
   width: 450px;
   border-radius: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: #CCF4F6;
-  margin-left: 320px;
+  margin-left: 100px;
   margin-right: 50px;
   margin-top: 20px;
+}
+
+.five p{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 10px;
+}
+.six p{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin:10px;
 }
 
 .seven{
@@ -251,11 +264,11 @@ h1 {
   border-radius: 20px;
 }
 .week1, .week2, .week3, .week4, .week5, .week6 h2 {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   text-align: center;
 }
 .week1, .week2, .week3, .week4, .week5, .week6 p {
-  padding: 20px;
+  padding: 40px;
   text-align: left;
 }
 
@@ -315,6 +328,75 @@ h1 {
   margin-top: 20px;
 }
 
+.newsletterform {
+  grid-column: 1/4;
+  grid-row: 5;
+  max-width:400px;
+  margin:0 auto;
+  background-color: #CCF4F6;
+  border-radius: 20px;
+  padding: 15px;
+}
+.newsletterabout {
+  grid-column: 1;
+  grid-row: 5;
+  max-width:400px;
+  margin:0 auto;
+  background-color: #CCF4F6;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+#newsletter input[type="email"] , #newsletter button[type="submit"] 
+
+#newsletter {
+  padding:30px;
+  margin:50px 0;
+  border-radius: 20px;
+  background-color:#CCF4F6;
+}
+
+fieldset {
+  /* removes the border around each field */
+  border: medium none !important;
+  margin: 0 0 20px;
+  min-width: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 15px;
+  text-align: center;
+  
+}
+
+#newsletter input[type="email"] {
+/* makes changes to the size of the input area for each */
+  width:300px;
+  border:2px solid rgba(169, 212, 181, 0.29);;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  border-radius: 20px;
+}
+
+#newsletter button[type="submit"] {
+  cursor:pointer;
+  border-radius: 20px;
+  width:100%;
+  border:none;
+  columns: #000000;;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:20px;
+  width: 238px;
+  height: 42px;
+  background: rgba(169, 212, 181, 0.29);
+}
+
+#newsletter button[type="submit"]:hover {
+  background:rgb(125, 180, 180);
+  /* lighter grey for the hover */
+}
+
 .testimonial{
   grid-column: 2;
   grid-row: 1;
@@ -324,9 +406,16 @@ h1 {
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: #CCF4F6;
-  margin-left: 320px;
+  margin-left: 100px;
   margin-right: 50px;
   margin-top: 20px;
+}
+
+.testimonial p{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  margin:10px;
 }
 
 /* contact.html css*/

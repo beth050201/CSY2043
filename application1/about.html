@@ -111,16 +111,18 @@
 
     <section class="about">
         
-        <div class="newsletter_about">
-            <form>
+        <div class="newsletterform_about">  
+            <form id="newsletter" action="mailto:someone@somewhere.com" method="post">
                 <h2>Sign up to our Newsletter</h2>
-
-                <form action="mailto:someone@something.com" method="POST">
-                <input placeholder="E-mail address" type="email" />
-                <br>
-                <button <input type="button" name="button" value="Submit" />Sign Up</button>
-                </form>
-        </div>
+              <fieldset>
+                <input placeholder="Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
+            </div>
 
         <div class="testimonial">
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa...
