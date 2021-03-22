@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- stylesheet-->
       <link rel="stylesheet" href="style.css">
+      <!-- JavaScript link-->
+      <script src="main.js"></script>
       <!--google fonts link-->
       <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
     <title>Login</title>
@@ -40,7 +42,7 @@
                   </fieldset>
     
                   <fieldset>
-                    <input placeholder="Password" type="email" tabindex="2" required>
+                    <input placeholder="Password" type="text" tabindex="2" required>
                   </fieldset>
                   <!--add checkbox  javascript and html-->
                   <fieldset>
@@ -50,25 +52,15 @@
                
               </div>  
               
-              <div class="login">  
-                <form id="contact" action="personalTracker.html" method="post">
+              <div id="log" class="login">  
                     <h2>Sign In</h2>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-                        <br>
-                        <fieldset>
-                          <input placeholder="Email" type="text" tabindex="1" required autofocus>
-                        </fieldset>
-          
-                        <fieldset>
-                          <input placeholder="Password" type="email" tabindex="2" required>
-                        </fieldset>
-                        <!--forgotten password link-->
-                        <p><a href="index.html">Forgotton Password?</a></p> 
-                        <br>
-                        <fieldset>
-                          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                        </fieldset>
+                    <form name="login">
+                      <input placeholder="Email" type="text" name="email"/>
+                      <input placeholder="Password" type="password" name="pswrd"/>
+                     
+                      <input type="button" onclick="check(this.form)" value="Login"/>
                       </form>
+                    
               </div> 
         </section>
 </body>
