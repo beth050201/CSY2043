@@ -37,8 +37,11 @@
 
   h2{
     font-weight: 300;
+    font-size: 24px;
   }
-
+  p{
+    font-size: 18px;;
+  }
   nav ul { 
     text-align: right;
     padding-right: 20px;
@@ -572,7 +575,7 @@ fieldset {
   fieldset {
     /* removes the border around each field */
     border: medium none !important;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     min-width: 100%;
     width: 100%;
     padding-top: 10px;
@@ -623,6 +626,7 @@ fieldset {
     grid-row: 2;
     margin-right: 150px;
   }
+
   #log {
     /* background and shape of the form */
     padding:30px;
@@ -638,7 +642,7 @@ fieldset {
       width:300px;
       border:2px solid rgba(169, 212, 181, 0.29);;
       background:#FFF;
-      margin:0 0 5px;
+      margin:0 0 20px;
       padding:10px;
       border-radius: 20px;
     }
@@ -663,6 +667,12 @@ fieldset {
       /* lighter grey for the hover */
     }
 
+    .login h2{
+      padding: 20px;
+    }
+    .signup h2{
+      padding: 20px;
+    }
 /* personal tracker css*/
 .dashboard {
   display: grid;
