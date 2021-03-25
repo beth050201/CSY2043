@@ -39,9 +39,11 @@
     font-weight: 300;
     font-size: 24px;
   }
+  
   p{
     font-size: 18px;;
   }
+
   nav ul { 
     text-align: right;
     padding-right: 20px;
@@ -789,3 +791,155 @@ footer ul li a{
 text-decoration: none;
 color: #000000;
 }
+
+
+
+
+
+ /* animation for the navigation - opacity 0 to 1 to make the nav links visbale again */
+ @keyframes navLinkFade{
+  from{
+        opacity: 0;
+        transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+/* break point used for the naviagtion*/
+@media screen and (max-width: 1212px){
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+} 
+
+ /* break point used for the naviagtion*/
+@media screen and (max-width: 852px){
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+} 
+
+ /* break point used for the naviagtion*/
+ @media screen and (max-width: 700px){
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+  }
+} 
+
+@media screen and (max-width: 760px){
+  
+  body{
+    overflow-x: hidden;
+    /*removes scroll so can't scroll side ways*/
+  }
+  
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh; /* make full screen as 8vh used above in nav*/
+    top: 8vh;
+    background:  #CCF4F6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* nav when is in view covers 25% of the screen*/
+    /*moves nav off the screen in mobile view*/
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in; /*transitionor the slide in of navigation*/
+    z-index: 9999; /*making the navigation appear infront of the elements on the page.
+  }
+  .nav-links li{
+    opacity: 0; /*starting postion so nav-links can't be seen*/
+  }
+
+  .burger{
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-active{
+    transform: translateX(0%);
+  }
+
+/* burger animation making the cross - changing values so lines rotate*/
+  .toggle .line_1{
+transform: rotate(-45deg) translate(-8px,6px);
+  }
+
+  .toggle .line_2{
+  opacity: 0;
+/* middle line cannot be seen*/
+  }
+
+  .toggle .line_3{
+  transform: rotate(45deg) translate(-8px,-6px);
+}
+  
+  /* adjusting columns of grid on every page so appears underneath each other in column 1 */
+  .content1{
+    grid-template-columns: repeat(1,1fr);
+    padding: 0;
+    margin: 0px;
+  }
+
+  .one{
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .two{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .three{
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .four{
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .five{
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .six{
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .seven{
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .container{
+    grid-template-columns: repeat(1,fr);
+    margin: 0px;
+  }
+
+  .portfolio-item{
+  grid-column: 1;
+  width: 300px;
+  }
+
+  .content2{
+    grid-template-columns: repeat(1,fr);
+    padding: 50px;
+    margin: 0px;
+  }
+
